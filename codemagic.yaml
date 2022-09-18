@@ -5,7 +5,7 @@ workflows:
     environment:
       vars:
         FCI_KEYSTORE_PATH: /tmp/keystore.keystore
-        FCI_KEYSTORE: /signs/keystore-flangapps.jks
+        FCI_KEYSTORE: /sign/keystore-flangapps.jks
         FCI_KEYSTORE_PASSWORD: flangapps#4445
         FCI_KEY_PASSWORD: flangapps#4445
         FCI_KEY_ALIAS: flangapps
