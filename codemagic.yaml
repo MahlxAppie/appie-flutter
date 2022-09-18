@@ -5,10 +5,10 @@ workflows:
     environment:
       vars:
         FCI_KEYSTORE_PATH: /tmp/keystore.keystore
-        FCI_KEYSTORE: /signs/test.jks
-        FCI_KEYSTORE_PASSWORD: password
-        FCI_KEY_PASSWORD: password
-        FCI_KEY_ALIAS: test
+        FCI_KEYSTORE: /signs/keystore-flangapps.jks
+        FCI_KEYSTORE_PASSWORD: flangapps#4445
+        FCI_KEY_PASSWORD: flangapps#4445
+        FCI_KEY_ALIAS: flangapps
         PACKAGE_NAME: "io.sitenative.app.prod_app"
         APP_UID: "test_uid"
       flutter: stable
